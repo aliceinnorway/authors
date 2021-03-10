@@ -13,7 +13,7 @@ name_list = old_authors.split(',')
 name_list[0] = ' ' + name_list[0]
 
 # add 'and' for the last name
-name_list[-2] = 'and ' + name_list[-2]
+name_list[-1] = 'and' + name_list[-1]
 
 # now to add the names back together
 new_names = []
